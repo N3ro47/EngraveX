@@ -1,0 +1,9 @@
+[project]
+name = "engravex"
+version = "0.1.0"
+description = "A CLI tool for laser doping on silicon using precise G-code"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pyserial>=3.5",
+]
